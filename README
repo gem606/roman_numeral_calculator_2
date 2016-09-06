@@ -1,0 +1,45 @@
+README
+
+
+WHAT IS RNC
+
+RNC is a Roman Numeral Calculator - kata - developed at the request of Pillar Technology for evaluative purposes. The calculator is a menu driven application that accepts only Roman Numeral characters.
+
+DISTRIBUTION
+
+This distribution is a git hub application that must be cloned. If you donot have git installed, go to https://git-scm.com/dowload to obtain the git core and installation instructions and setup instructions for your OS.
+
+You must also have 'check' unit testing framework for C installed. 
+See: https://libcheck.github.io/check for download and installation instruction.
+
+To obtain this distribution, you must have access to the public github host. The repository for this application is:
+
+	https://github.com/gem606/roman_numeral_calculator_2
+
+	
+COMPILING
+
+Once 'git' and 'check' are in place and the RNC application cloned, you may change to the top level directory of the Roman Numeral Calculator application.
+
+	cd ~/"YOUR CLONED 'RNC' DIRECTORY"
+
+
+Run 'make' in the top level of the RNC directory to compile the application. 
+
+	make
+
+Or, Run 'make check' to compile and execute the test cases. 
+
+	make check
+
+
+RUNNING THE APPLICATION
+
+The executable for the application is 'roman_numeral_cal' and it resides in the top level directory, once you have sucessfully compiled the package.
+
+	./roman_numeral_cal
+
+
+MAIN AUTHOR
+
+	George Moore		E-mail:	gem@x-ctr-l.com
